@@ -27,15 +27,6 @@ function encriptar(stringEncriptada) {
   }
   return stringEncriptada;
 }
-
-let matrizCodigo1 = [
-    ["e", "enter"],
-    ["i", "imes"],
-    ["a", "ai"],
-    ["o", "ober"],
-    ["u", "ufat"],
-  ];
-
 function btnDescripto() {
   const textoDesencriptado = desencriptar(inputText.value);
   inputmensagem.value = textoDesencriptado;
